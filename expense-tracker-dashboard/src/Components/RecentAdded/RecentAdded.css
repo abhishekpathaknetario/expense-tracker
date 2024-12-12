@@ -1,0 +1,20 @@
+.recent-added {
+  padding: 0px 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+
+.recent-added span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.filter-area {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

@@ -1,0 +1,7 @@
+.main-left {
+  background-color: yellow;
+  width: 80vw;
+}
+.main {
+  display: flex;
+}

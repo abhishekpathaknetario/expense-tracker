@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.header {
+  background-color: #00006B;
+  padding: 10px 3rem;
+  color: white;
+}
