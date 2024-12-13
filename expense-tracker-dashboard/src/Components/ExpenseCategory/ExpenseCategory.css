@@ -1,0 +1,22 @@
+aside {
+  background: #fff;
+  width: 12vw;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  height: 75vh;
+}
+
+aside p {
+  color: #00006b;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+aside button {
+  padding: .8rem 1rem;
+  border: 1px solid #cdcdcd;
+  border-radius: 0.4rem;
+  background: #fcfcfc;
+  text-align: start;
+}

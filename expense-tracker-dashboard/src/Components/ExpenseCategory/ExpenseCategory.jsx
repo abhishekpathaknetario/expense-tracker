@@ -1,11 +1,34 @@
 import React from "react";
 
+import "./ExpenseCategory.css";
+
 function ExpenseCategory() {
-  return <div>
+  return (
+    <div>
+      <aside>
+        
+        <p>Expense Category</p>
 
-    <h1>Hii</h1>
+        <button>Employee Salary</button>
 
-  </div>;
+        <button>Transportation Costs</button>
+
+        <button>Maintenance Repairs</button>
+
+        <button>Rent</button>
+
+        <button>Marketing and Advertising</button>
+
+        <button>Stationary</button>
+
+        <button>Utility Bills</button>
+
+        <button>Welfare</button>
+
+        <button>Miscellaneous</button>
+      </aside>
+    </div>
+  );
 }
 
 export default ExpenseCategory;

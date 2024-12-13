@@ -1,0 +1,114 @@
+{
+    "transportation": [
+        {
+            "id": 1,
+            "mode": "Bus",
+            "cost": 1500,
+            "numberOfPersons": 30,
+            "details": {
+                "route": "Route A",
+                "duration": "1 hour",
+                "frequency": "Daily"
+            }
+        },
+        {
+            "id": 2,
+            "mode": "Taxi",
+            "cost": 3000,
+            "numberOfPersons": 5,
+            "details": {
+                "route": "Route B",
+                "duration": "45 minutes",
+                "frequency": "On demand"
+            }
+        },
+        {
+            "id": 3,
+            "mode": "Train",
+            "cost": 2000,
+            "numberOfPersons": 20,
+            "details": {
+                "route": "Route C",
+                "duration": "2 hours",
+                "frequency": "Twice daily"
+            }
+        },
+        {
+            "id": 4,
+            "mode": "Flight",
+            "cost": 50000,
+            "numberOfPersons": 10,
+            "details": {
+                "route": "Route D",
+                "duration": "3 hours",
+                "frequency": "Weekly"
+            }
+        },
+        {
+            "id": 5,
+            "mode": "Car",
+            "cost": 2500,
+            "numberOfPersons": 4,
+            "details": {
+                "route": "Route E",
+                "duration": "30 minutes",
+                "frequency": "Daily"
+            }
+        },
+        {
+            "id": 6,
+            "mode": "Bicycle",
+            "cost": 500,
+            "numberOfPersons": 1,
+            "details": {
+                "route": "Route F",
+                "duration": "15 minutes",
+                "frequency": "Daily"
+            }
+        },
+        {
+            "id": 7,
+            "mode": "Van",
+            "cost": 4000,
+            "numberOfPersons": 8,
+            "details": {
+                "route": "Route G",
+                "duration": "1.5 hours",
+                "frequency": "Daily"
+            }
+        },
+        {
+            "id": 8,
+            "mode": "Boat",
+            "cost": 8000,
+            "numberOfPersons": 12,
+            "details": {
+                "route": "Route H",
+                "duration": "2 hours",
+                "frequency": "Weekly"
+            }
+        },
+        {
+            "id": 9,
+            "mode": "Subway",
+            "cost": 1200,
+            "numberOfPersons": 25,
+            "details": {
+                "route": "Route I",
+                "duration": "30 minutes",
+                "frequency": "Daily"
+            }
+        },
+        {
+            "id": 10,
+            "mode": "Helicopter",
+            "cost": 150000,
+            "numberOfPersons": 3,
+            "details": {
+                "route": "Route J",
+                "duration": "1 hour",
+                "frequency": "Monthly"
+            }
+        }
+    ]
+}

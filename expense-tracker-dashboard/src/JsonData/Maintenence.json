@@ -1,0 +1,114 @@
+{
+    "maintenance": [
+        {
+            "id": 1,
+            "category": "Building",
+            "cost": 10000,
+            "numberOfPersons": 5,
+            "details": {
+                "description": "Routine building maintenance",
+                "frequency": "Monthly",
+                "lastServiced": "2024-01-05"
+            }
+        },
+        {
+            "id": 2,
+            "category": "HVAC",
+            "cost": 3000,
+            "numberOfPersons": 2,
+            "details": {
+                "description": "Heating, Ventilation, and Air Conditioning maintenance",
+                "frequency": "Quarterly",
+                "lastServiced": "2023-12-15"
+            }
+        },
+        {
+            "id": 3,
+            "category": "Electrical",
+            "cost": 5000,
+            "numberOfPersons": 4,
+            "details": {
+                "description": "Electrical system maintenance",
+                "frequency": "Bi-monthly",
+                "lastServiced": "2024-02-01"
+            }
+        },
+        {
+            "id": 4,
+            "category": "Plumbing",
+            "cost": 2000,
+            "numberOfPersons": 3,
+            "details": {
+                "description": "Plumbing system maintenance",
+                "frequency": "Monthly",
+                "lastServiced": "2023-11-30"
+            }
+        },
+        {
+            "id": 5,
+            "category": "IT Equipment",
+            "cost": 8000,
+            "numberOfPersons": 6,
+            "details": {
+                "description": "Maintenance of IT hardware and software",
+                "frequency": "Monthly",
+                "lastServiced": "2024-01-20"
+            }
+        },
+        {
+            "id": 6,
+            "category": "Landscaping",
+            "cost": 1500,
+            "numberOfPersons": 2,
+            "details": {
+                "description": "Grounds and landscaping maintenance",
+                "frequency": "Weekly",
+                "lastServiced": "2024-01-25"
+            }
+        },
+        {
+            "id": 7,
+            "category": "Security Systems",
+            "cost": 2500,
+            "numberOfPersons": 3,
+            "details": {
+                "description": "Maintenance of security systems",
+                "frequency": "Monthly",
+                "lastServiced": "2024-01-18"
+            }
+        },
+        {
+            "id": 8,
+            "category": "Elevators",
+            "cost": 5000,
+            "numberOfPersons": 1,
+            "details": {
+                "description": "Elevator maintenance",
+                "frequency": "Bi-monthly",
+                "lastServiced": "2023-12-05"
+            }
+        },
+        {
+            "id": 9,
+            "category": "Fire Safety",
+            "cost": 3500,
+            "numberOfPersons": 2,
+            "details": {
+                "description": "Fire safety equipment maintenance",
+                "frequency": "Quarterly",
+                "lastServiced": "2024-01-10"
+            }
+        },
+        {
+            "id": 10,
+            "category": "Parking Lot",
+            "cost": 2000,
+            "numberOfPersons": 2,
+            "details": {
+                "description": "Parking lot maintenance",
+                "frequency": "Monthly",
+                "lastServiced": "2024-01-08"
+            }
+        }
+    ]
+}

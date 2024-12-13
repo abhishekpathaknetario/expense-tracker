@@ -5,6 +5,7 @@ import "../src/Components/Css/Main.css";
 import Sidebar from "./Components/SideBar/Sidebar";
 import Overview from "./Components/Overview/Overview";
 import Main from "./Components/MainContainer/Main";
+import ExpenseForm from "./Components/ExpenseForm/ExpenseForm";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div class="container">
         <Overview />
         <Main />
+        {/* <ExpenseForm /> */}
       </div>
     </>
   );

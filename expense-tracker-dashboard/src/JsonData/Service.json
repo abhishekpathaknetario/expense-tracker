@@ -1,0 +1,114 @@
+{
+    "serviceExpenses": [
+        {
+            "id": 1,
+            "serviceName": "Cleaning",
+            "cost": 10000,
+            "numberOfPersons": 5,
+            "details": {
+                "provider": "ABC Cleaning Services",
+                "frequency": "Weekly",
+                "lastServiced": "2024-01-05"
+            }
+        },
+        {
+            "id": 2,
+            "serviceName": "IT Support",
+            "cost": 15000,
+            "numberOfPersons": 3,
+            "details": {
+                "provider": "XYZ IT Solutions",
+                "frequency": "Monthly",
+                "lastServiced": "2024-01-10"
+            }
+        },
+        {
+            "id": 3,
+            "serviceName": "Security",
+            "cost": 20000,
+            "numberOfPersons": 10,
+            "details": {
+                "provider": "SecureGuard Inc.",
+                "frequency": "Daily",
+                "lastServiced": "2024-01-01"
+            }
+        },
+        {
+            "id": 4,
+            "serviceName": "Catering",
+            "cost": 5000,
+            "numberOfPersons": 4,
+            "details": {
+                "provider": "Gourmet Catering",
+                "frequency": "Daily",
+                "lastServiced": "2024-01-12"
+            }
+        },
+        {
+            "id": 5,
+            "serviceName": "Maintenance",
+            "cost": 8000,
+            "numberOfPersons": 6,
+            "details": {
+                "provider": "LMN Maintenance",
+                "frequency": "Monthly",
+                "lastServiced": "2024-01-08"
+            }
+        },
+        {
+            "id": 6,
+            "serviceName": "Consulting",
+            "cost": 12000,
+            "numberOfPersons": 2,
+            "details": {
+                "provider": "ConsultPro",
+                "frequency": "Quarterly",
+                "lastServiced": "2023-12-15"
+            }
+        },
+        {
+            "id": 7,
+            "serviceName": "Legal",
+            "cost": 25000,
+            "numberOfPersons": 1,
+            "details": {
+                "provider": "LawExperts LLP",
+                "frequency": "Annually",
+                "lastServiced": "2023-12-01"
+            }
+        },
+        {
+            "id": 8,
+            "serviceName": "Training",
+            "cost": 7000,
+            "numberOfPersons": 5,
+            "details": {
+                "provider": "SkillBuilders",
+                "frequency": "Bi-annually",
+                "lastServiced": "2023-11-20"
+            }
+        },
+        {
+            "id": 9,
+            "serviceName": "Marketing",
+            "cost": 30000,
+            "numberOfPersons": 8,
+            "details": {
+                "provider": "MarketMakers",
+                "frequency": "Monthly",
+                "lastServiced": "2024-01-18"
+            }
+        },
+        {
+            "id": 10,
+            "serviceName": "HR Services",
+            "cost": 11000,
+            "numberOfPersons": 4,
+            "details": {
+                "provider": "HR Solutions",
+                "frequency": "Monthly",
+                "lastServiced": "2024-01-22"
+            }
+        }
+    ]
+}

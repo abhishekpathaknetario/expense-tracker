@@ -1,0 +1,124 @@
+{
+    "rentCosts": [
+        {
+            "id": 1,
+            "location": "New York",
+            "rentAmount": 50000,
+            "leasePeriod": "2024-01-01 to 2024-12-31",
+            "numberOfSpaces": 5,
+            "details": {
+                "type": "Office",
+                "landlord": "ABC Realty",
+                "contact": "info@abcrealty.com"
+            }
+        },
+        {
+            "id": 2,
+            "location": "San Francisco",
+            "rentAmount": 60000,
+            "leasePeriod": "2024-02-01 to 2025-01-31",
+            "numberOfSpaces": 4,
+            "details": {
+                "type": "Office",
+                "landlord": "XYZ Properties",
+                "contact": "info@xyzproperties.com"
+            }
+        },
+        {
+            "id": 3,
+            "location": "Chicago",
+            "rentAmount": 40000,
+            "leasePeriod": "2024-03-01 to 2025-02-28",
+            "numberOfSpaces": 6,
+            "details": {
+                "type": "Warehouse",
+                "landlord": "LMN Holdings",
+                "contact": "info@lmnholdings.com"
+            }
+        },
+        {
+            "id": 4,
+            "location": "Los Angeles",
+            "rentAmount": 55000,
+            "leasePeriod": "2024-04-01 to 2025-03-31",
+            "numberOfSpaces": 3,
+            "details": {
+                "type": "Retail",
+                "landlord": "PQR Properties",
+                "contact": "info@pqrproperties.com"
+            }
+        },
+        {
+            "id": 5,
+            "location": "Seattle",
+            "rentAmount": 45000,
+            "leasePeriod": "2024-05-01 to 2025-04-30",
+            "numberOfSpaces": 2,
+            "details": {
+                "type": "Office",
+                "landlord": "GHI Estates",
+                "contact": "info@ghiestates.com"
+            }
+        },
+        {
+            "id": 6,
+            "location": "Austin",
+            "rentAmount": 35000,
+            "leasePeriod": "2024-06-01 to 2025-05-31",
+            "numberOfSpaces": 4,
+            "details": {
+                "type": "Warehouse",
+                "landlord": "JKL Investments",
+                "contact": "info@jklinvestments.com"
+            }
+        },
+        {
+            "id": 7,
+            "location": "Miami",
+            "rentAmount": 30000,
+            "leasePeriod": "2024-07-01 to 2025-06-30",
+            "numberOfSpaces": 3,
+            "details": {
+                "type": "Office",
+                "landlord": "MNO Realty",
+                "contact": "info@mnorealty.com"
+            }
+        },
+        {
+            "id": 8,
+            "location": "Boston",
+            "rentAmount": 40000,
+            "leasePeriod": "2024-08-01 to 2025-07-31",
+            "numberOfSpaces": 2,
+            "details": {
+                "type": "Retail",
+                "landlord": "STU Properties",
+                "contact": "info@stuproperties.com"
+            }
+        },
+        {
+            "id": 9,
+            "location": "Denver",
+            "rentAmount": 50000,
+            "leasePeriod": "2024-09-01 to 2025-08-31",
+            "numberOfSpaces": 5,
+            "details": {
+                "type": "Warehouse",
+                "landlord": "VWX Holdings",
+                "contact": "info@vwxholdings.com"
+            }
+        },
+        {
+            "id": 10,
+            "location": "Atlanta",
+            "rentAmount": 35000,
+            "leasePeriod": "2024-10-01 to 2025-09-30",
+            "numberOfSpaces": 4,
+            "details": {
+                "type": "Office",
+                "landlord": "YZA Realty",
+                "contact": "info@yza-realty.com"
+            }
+        }
+    ]
+}

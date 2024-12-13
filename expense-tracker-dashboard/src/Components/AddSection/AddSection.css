@@ -1,0 +1,19 @@
+.AddContainer {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.AddContainer div {
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.AddContainer button {
+  background-color: #d6d6fb;
+  height: 44px;
+  border: none;
+  font-weight: 500;
+  padding: 0rem 1rem;
+}

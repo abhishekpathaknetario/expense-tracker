@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "font";
+  src: url("../src/Assets/Fonts/font.otf") format("truetype");
+}
+* {
+  font-family: "font", sans-serif;
+}
 .container {
   background-color: #f6f6f6;
   padding: 1rem 5rem;
   margin-left: 12vw;
-  height: 100vh;
 }

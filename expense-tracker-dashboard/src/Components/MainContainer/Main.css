@@ -1,7 +1,8 @@
 .main-left {
-  background-color: yellow;
-  width: 80vw;
+  width: 62vw;
 }
 .main {
+  margin-top: 1rem;
   display: flex;
+  justify-content: space-between;
 }

@@ -1,0 +1,114 @@
+{
+  "stationeryExpenses": [
+    {
+      "id": 1,
+      "itemName": "Pens",
+      "cost": 2000,
+      "numberOfItems": 100,
+      "details": {
+        "vendor": "Office Supplies Co.",
+        "purchaseDate": "2024-01-05",
+        "category": "Writing Instruments"
+      }
+    },
+    {
+      "id": 2,
+      "itemName": "Notebooks",
+      "cost": 3000,
+      "numberOfItems": 50,
+      "details": {
+        "vendor": "Stationery World",
+        "purchaseDate": "2024-01-10",
+        "category": "Paper Products"
+      }
+    },
+    {
+      "id": 3,
+      "itemName": "Staplers",
+      "cost": 1000,
+      "numberOfItems": 20,
+      "details": {
+        "vendor": "Office Mart",
+        "purchaseDate": "2024-01-15",
+        "category": "Office Tools"
+      }
+    },
+    {
+      "id": 4,
+      "itemName": "Markers",
+      "cost": 1500,
+      "numberOfItems": 60,
+      "details": {
+        "vendor": "Supplies Hub",
+        "purchaseDate": "2024-01-20",
+        "category": "Writing Instruments"
+      }
+    },
+    {
+      "id": 5,
+      "itemName": "Paper Clips",
+      "cost": 500,
+      "numberOfItems": 500,
+      "details": {
+        "vendor": "Stationery Depot",
+        "purchaseDate": "2024-01-25",
+        "category": "Office Tools"
+      }
+    },
+    {
+      "id": 6,
+      "itemName": "Envelopes",
+      "cost": 1000,
+      "numberOfItems": 200,
+      "details": {
+        "vendor": "Mail Supplies",
+        "purchaseDate": "2024-01-30",
+        "category": "Mailing Supplies"
+      }
+    },
+    {
+      "id": 7,
+      "itemName": "Highlighters",
+      "cost": 1200,
+      "numberOfItems": 40,
+      "details": {
+        "vendor": "Bright Markers Co.",
+        "purchaseDate": "2024-02-05",
+        "category": "Writing Instruments"
+      }
+    },
+    {
+      "id": 8,
+      "itemName": "Folders",
+      "cost": 2500,
+      "numberOfItems": 100,
+      "details": {
+        "vendor": "Office Supplies Co.",
+        "purchaseDate": "2024-02-10",
+        "category": "Organizational Tools"
+      }
+    },
+    {
+      "id": 9,
+      "itemName": "Scissors",
+      "cost": 800,
+      "numberOfItems": 30,
+      "details": {
+        "vendor": "Tool Mart",
+        "purchaseDate": "2024-02-15",
+        "category": "Office Tools"
+      }
+    },
+    {
+      "id": 10,
+      "itemName": "Sticky Notes",
+      "cost": 600,
+      "numberOfItems": 200,
+      "details": {
+        "vendor": "Note Supplies",
+        "purchaseDate": "2024-02-20",
+        "category": "Paper Products"
+      }
+    }
+  ]
+}
