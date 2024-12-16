@@ -1,15 +1,26 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaArrowLeft } from "react-icons/fa";
 import "./ExpenseForm.css";
 
+import { useNavigate } from "react-router-dom";
+
 function ExpenseForm() {
   const [formData, setFormData] = useState({
-    Type: "",
-    Expence: "",
-    Date: "",
-    Phone: "",
-    Email: "",
+    type: "",
+    price: "",
+    date: "",
+    phone: "",
+    email: "",
+    stNarr: "",
+    lgNarr: "",
   });
+
+  useEffect(() => {
+    const savedData = localStorage.getItem("formData");
+    if (savedData) {
+      setFormData(JSON.parse(savedData));
+    }
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,6 +29,7 @@ function ExpenseForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // SetData to Local Storage
     localStorage.setItem("formData", JSON.stringify(formData));
     alert("Form data has been saved to local storage!");
   };
@@ -37,22 +49,20 @@ function ExpenseForm() {
         <form onSubmit={handleSubmit}>
           <span>
             <p>Choose Expense Type</p>
-            <select id="cars">
-              <option value="" selected></option>
-              <option value="Fare">Fare</option>
-              <option value="volvo">Maintenence</option>
-              <option value="saab">Misceleneous</option>
-              <option value="opel">Service</option>
-              <option value="audi">Food</option>
+            <select id="options" value={formData.type} onChange={handleChange}>
+              <option value="">-- Select an option --</option>
+              <option value="option1">Option 1</option>
+              <option value="option2">Option 2</option>
+              <option value="option3">Option 3</option>
             </select>
           </span>
           <span>
             <p>Expence/Price</p>
             <input
               type="text"
-              name="name"
-              placeholder="Enter cn number"
-              value={formData.name}
+              name="price"
+              placeholder="Enter Price"
+              value={formData.price}
               onChange={handleChange}
             />
           </span>
@@ -62,7 +72,7 @@ function ExpenseForm() {
               type="text"
               name="date"
               placeholder="--/--/--"
-              value={formData.name}
+              value={formData.date}
               onChange={handleChange}
             />
           </span>
@@ -71,8 +81,8 @@ function ExpenseForm() {
             <input
               type="text"
               placeholder="Enter phone no."
-              name="number"
-              value={formData.name}
+              name="phone"
+              value={formData.phone}
               onChange={handleChange}
             />
           </span>
@@ -81,8 +91,8 @@ function ExpenseForm() {
             <input
               type="text"
               placeholder="Enter Your Mail"
-              name="mail"
-              value={formData.name}
+              name="email"
+              value={formData.email}
               onChange={handleChange}
             />
           </span>
@@ -92,14 +102,14 @@ function ExpenseForm() {
       <div className="narration">
         <p>Narration</p>
 
-        <form action="">
+        <form onSubmit={handleSubmit}>
           <div>
             <span>
               <p>Short narration</p>
               <input
                 type="text"
-                name="narration"
-                value={formData.name}
+                name="stNarr"
+                value={formData.stNarr}
                 onChange={handleChange}
               />
             </span>
@@ -107,8 +117,8 @@ function ExpenseForm() {
               <p>Long narration</p>
               <input
                 type="text"
-                name="lg_narration"
-                value={formData.name}
+                name="lgNarr"
+                value={formData.lgNarr}
                 onChange={handleChange}
               />
             </span>

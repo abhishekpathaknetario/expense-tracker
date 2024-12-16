@@ -7,11 +7,11 @@ function AddSection() {
   return (
     <div className="AddContainer">
       <p>
-        Totel: <b>23,000</b>
+        Total: <b>23,000</b>
       </p>
 
       <div>
-        <button>+  Add Expense</button>
+        <button>+ Add Expense</button>
         <img src={pdf} alt="" />
       </div>
     </div>

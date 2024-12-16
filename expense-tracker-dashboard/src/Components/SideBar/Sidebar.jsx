@@ -41,7 +41,7 @@ function Sidebar() {
           id="mySidenav"
           className="sidenav"
           style={{
-            width: isActive ? "250px" : "0",
+            width: isActive ? "13rem" : "0",
             transition: "0.3s",
           }}
         >

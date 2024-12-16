@@ -7,6 +7,9 @@
 }
 .FormBack button {
   padding: 0.8rem 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .expense_details {
   margin-top: 3rem;
@@ -69,4 +72,71 @@ select {
   padding: 0.7rem 4rem;
   border: none;
   font-size: 1.1rem;
+}
+
+@media (max-width: 1400px) {
+  .FormBack {
+    padding: 0.5rem;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .FormBack button {
+    padding: 0.5rem 0.5rem;
+  }
+  .expense_details {
+    margin-top: 1rem;
+  }
+  .expense_details form {
+    padding: 1rem;
+  }
+  .expense_details p {
+    margin-bottom: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  .expense_details form input,
+  select {
+    padding: 0.5rem;
+    width: 7rem;
+    font-size: 0.6rem;
+  }
+
+  .expense_details p {
+    padding-bottom: 0.3rem;
+  }
+
+  /* shidfh */
+
+  .narration {
+    margin-top: 3rem;
+  }
+  .narration form div {
+    gap: 3rem;
+  }
+  .narration form {
+    padding: 1rem;
+  }
+  .narration p {
+    margin-bottom: 0.5rem;
+  }
+
+  .narration form input,
+  select {
+    padding: 0.5rem;
+    width: 10rem;
+  }
+
+  .narration p {
+    font-size: 0.8rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .narration button {
+    background-color: #d6d6fb;
+    color: #00006b;
+    padding: 0.7rem 3rem;
+    border: none;
+    font-size: 0.8rem;
+  }
 }

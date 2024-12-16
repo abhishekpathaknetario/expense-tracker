@@ -40,3 +40,47 @@
   font-size: 10px;
   margin-top: 8px;
 }
+
+@media (max-width: 1400px) {
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-top: 0.8rem;
+    color: #545454;
+  }
+
+  .card-container div {
+    background-color: #f6f6f6;
+    padding: 0.8rem;
+    width: 6.8rem;
+    height: 2.5rem;
+
+    border: 1px solid #cbcbcb;
+  }
+  .card-container div:first-child {
+    background-color: #00006b;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .card-container div {
+    font-size: 0.8rem;
+  }
+  .card-container div:first-child b {
+    color: #67ed01;
+    font-size: 0.8rem;
+  }
+
+  .card-container div b {
+    font-size: 1rem;
+  }
+
+  .card-container div p span {
+    font-size: 1.2rem;
+  }
+
+  .card-container div i {
+    font-size: 0.5rem;
+  }
+}
