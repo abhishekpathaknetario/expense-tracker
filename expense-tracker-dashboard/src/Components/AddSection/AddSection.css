@@ -17,3 +17,18 @@
   font-weight: 500;
   padding: 0rem 1rem;
 }
+
+@media (max-width: 1400px) {
+  .AddContainer {
+    margin-top: 1rem;
+  }
+  .AddContainer div {
+    width: 10rem;
+  }
+  .AddContainer button {
+    height: 2.5rem;
+    border: none;
+    font-weight: 500;
+    padding: 0rem 1rem;
+  }
+}

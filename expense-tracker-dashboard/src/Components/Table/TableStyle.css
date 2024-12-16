@@ -5,6 +5,7 @@ table {
   border: 1px solid #cbcbcb;
   margin-top: 1rem;
   color: #545454;
+  background-color: #fff;
 }
 
 td {
@@ -57,4 +58,56 @@ th {
 }
 .pagination b {
   margin: 1rem;
+}
+
+@media (max-width: 1400px) {
+  td {
+    text-align: left;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+  th {
+    color: #00006b;
+    background-color: #dadaff;
+    text-align: left;
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+
+  .table-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    border: 1px solid #dddddd;
+  }
+  .table-bottom button {
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dddddd;
+    gap: 0.5rem;
+    background-color: #fff;
+  }
+  .pagination {
+    display: inline-block;
+  }
+
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .active {
+    background-color: #dadaff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+  }
+  .pagination b {
+    margin: 1rem;
+  }
 }
