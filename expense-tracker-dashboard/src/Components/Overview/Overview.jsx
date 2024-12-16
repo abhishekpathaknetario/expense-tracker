@@ -27,14 +27,11 @@ function Overview() {
           </span>
         </div>
       </div>
-      <div className="main-left">
-        <RecentAdded />
-        <div>
-          <OverviewCards />
-        </div>
-        <AddSection />
-        <Table />
-      </div>
+
+      <RecentAdded />
+      <OverviewCards />
+      <AddSection />
+      <Table />
     </div>
   );
 }

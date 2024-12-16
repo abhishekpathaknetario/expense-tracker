@@ -32,7 +32,7 @@ function SalaryList() {
   return (
     <div>
       <div className="scroll">
-        <table>
+        <table style={{ width: "120%" }}>
           <thead>
             <tr>
               <th>S.no</th>

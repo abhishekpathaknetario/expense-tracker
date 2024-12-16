@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import { FaArrowLeft } from "react-icons/fa";
 import "./ExpenseForm.css";
 
-import { useNavigate } from "react-router-dom";
-
 function ExpenseForm() {
   const [formData, setFormData] = useState({
     type: "",
@@ -29,7 +27,6 @@ function ExpenseForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // SetData to Local Storage
     localStorage.setItem("formData", JSON.stringify(formData));
     alert("Form data has been saved to local storage!");
   };
