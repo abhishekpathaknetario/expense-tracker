@@ -1,23 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-// Assuming data is fetched or defined
-const Common = ({ data }) => {
-  // Fetch the data (optional if data is hardcoded)
+function Common({ data }) {
+  const key = Object.keys(data)[0];
 
-  const objectKey = Object.keys(data);
+  console.log(key);
 
-  const firstItemKeys = Object.keys(data.objectKey[0]);
+  console.log(data.key);
 
-  console.log("Keys of the first maintenance item:", firstItemKeys);
-
-  const detailsKeys = Object.keys(data.objectKey[0].details);
-
-  console.log("Keys of the details object:", detailsKeys);
-  return (
-    <div>
-      <h1>{objectKey}</h1>
-    </div>
-  );
-};
+  return <div>{Object.keys(data)}</div>;
+}
 
 export default Common;
